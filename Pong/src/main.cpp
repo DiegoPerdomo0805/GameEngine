@@ -1,23 +1,17 @@
-#pragma once
-#include <raylib.h>
+#include "Game.h"
 
-class Game {
-public:
-  Game(const char* title, int width, int height);
-  ~Game();
+int main() {
+  Game game("Pong", 800, 600);
+  game.setup();
 
-  void setup();
-  void frame_start();
-  void handle_events();
-  void update();
-  void render();
-  void frame_end();
-  void clean();
-  bool running();
+  while (game.running()) {
+    game.frame_start();
+    game.handle_events();
+    game.update();
+    game.render();
+    game.frame_end();
+  }
 
-private:
-  int counter;
-  int screen_width;
-  int screen_height;
-  bool isRunning;
-};
+  game.clean();
+  return 0;
+}
