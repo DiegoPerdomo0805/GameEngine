@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GAME.dir/src/Game.cpp.o.d"
   "CMakeFiles/GAME.dir/src/main.cpp.o"
   "CMakeFiles/GAME.dir/src/main.cpp.o.d"
+  "CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o"
+  "CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o.d"
   "GAME"
   "GAME.pdb"
 )

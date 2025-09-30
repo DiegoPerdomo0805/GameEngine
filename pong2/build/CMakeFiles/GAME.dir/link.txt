@@ -1,1 +1,1 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/GAME.dir/link.d CMakeFiles/GAME.dir/src/main.cpp.o CMakeFiles/GAME.dir/src/Game.cpp.o -o GAME  /usr/local/lib/libraylib.a
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/GAME.dir/link.d CMakeFiles/GAME.dir/src/Game.cpp.o CMakeFiles/GAME.dir/src/main.cpp.o CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o -o GAME  /usr/local/lib/libraylib.a

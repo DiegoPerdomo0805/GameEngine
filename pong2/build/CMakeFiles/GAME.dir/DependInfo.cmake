@@ -8,8 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/M0M0/gameEngine/Pong/src/Game.cpp" "CMakeFiles/GAME.dir/src/Game.cpp.o" "gcc" "CMakeFiles/GAME.dir/src/Game.cpp.o.d"
-  "/home/M0M0/gameEngine/Pong/src/main.cpp" "CMakeFiles/GAME.dir/src/main.cpp.o" "gcc" "CMakeFiles/GAME.dir/src/main.cpp.o.d"
+  "/home/M0M0/gameEngine/pong2/src/Game.cpp" "CMakeFiles/GAME.dir/src/Game.cpp.o" "gcc" "CMakeFiles/GAME.dir/src/Game.cpp.o.d"
+  "/home/M0M0/gameEngine/pong2/src/main.cpp" "CMakeFiles/GAME.dir/src/main.cpp.o" "gcc" "CMakeFiles/GAME.dir/src/main.cpp.o.d"
+  "/home/M0M0/gameEngine/pong2/src/scenes/BreakoutScene.cpp" "CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o" "gcc" "CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o.d"
   "" "GAME" "gcc" "CMakeFiles/GAME.dir/link.d"
   )
 

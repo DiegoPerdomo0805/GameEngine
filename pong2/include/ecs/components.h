@@ -4,7 +4,7 @@
 
 struct Name { std::string tag; };
 
-struct Transform { Vector2 pos; };
+struct Transform2D { Vector2 pos; };
 struct Velocity  { Vector2 vel; };
 struct Size      { Vector2 size; };
 struct Tint      { Color color; };

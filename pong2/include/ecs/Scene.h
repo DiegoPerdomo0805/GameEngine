@@ -2,6 +2,7 @@
 #include <entt/entt.hpp>
 #include <vector>
 #include <memory>
+#include "ecs/systems.h"
 
 class System; // fwd
 

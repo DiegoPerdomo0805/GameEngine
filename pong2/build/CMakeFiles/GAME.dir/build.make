@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/M0M0/gameEngine/Pong
+CMAKE_SOURCE_DIR = /home/M0M0/gameEngine/pong2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/M0M0/gameEngine/Pong/build
+CMAKE_BINARY_DIR = /home/M0M0/gameEngine/pong2/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/GAME.dir/depend.make
@@ -72,49 +72,65 @@ include CMakeFiles/GAME.dir/flags.make
 CMakeFiles/GAME.dir/codegen:
 .PHONY : CMakeFiles/GAME.dir/codegen
 
-CMakeFiles/GAME.dir/src/main.cpp.o: CMakeFiles/GAME.dir/flags.make
-CMakeFiles/GAME.dir/src/main.cpp.o: /home/M0M0/gameEngine/Pong/src/main.cpp
-CMakeFiles/GAME.dir/src/main.cpp.o: CMakeFiles/GAME.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/M0M0/gameEngine/Pong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GAME.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GAME.dir/src/main.cpp.o -MF CMakeFiles/GAME.dir/src/main.cpp.o.d -o CMakeFiles/GAME.dir/src/main.cpp.o -c /home/M0M0/gameEngine/Pong/src/main.cpp
-
-CMakeFiles/GAME.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GAME.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/M0M0/gameEngine/Pong/src/main.cpp > CMakeFiles/GAME.dir/src/main.cpp.i
-
-CMakeFiles/GAME.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GAME.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/M0M0/gameEngine/Pong/src/main.cpp -o CMakeFiles/GAME.dir/src/main.cpp.s
-
 CMakeFiles/GAME.dir/src/Game.cpp.o: CMakeFiles/GAME.dir/flags.make
-CMakeFiles/GAME.dir/src/Game.cpp.o: /home/M0M0/gameEngine/Pong/src/Game.cpp
+CMakeFiles/GAME.dir/src/Game.cpp.o: /home/M0M0/gameEngine/pong2/src/Game.cpp
 CMakeFiles/GAME.dir/src/Game.cpp.o: CMakeFiles/GAME.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/M0M0/gameEngine/Pong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GAME.dir/src/Game.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GAME.dir/src/Game.cpp.o -MF CMakeFiles/GAME.dir/src/Game.cpp.o.d -o CMakeFiles/GAME.dir/src/Game.cpp.o -c /home/M0M0/gameEngine/Pong/src/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/M0M0/gameEngine/pong2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GAME.dir/src/Game.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GAME.dir/src/Game.cpp.o -MF CMakeFiles/GAME.dir/src/Game.cpp.o.d -o CMakeFiles/GAME.dir/src/Game.cpp.o -c /home/M0M0/gameEngine/pong2/src/Game.cpp
 
 CMakeFiles/GAME.dir/src/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GAME.dir/src/Game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/M0M0/gameEngine/Pong/src/Game.cpp > CMakeFiles/GAME.dir/src/Game.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/M0M0/gameEngine/pong2/src/Game.cpp > CMakeFiles/GAME.dir/src/Game.cpp.i
 
 CMakeFiles/GAME.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GAME.dir/src/Game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/M0M0/gameEngine/Pong/src/Game.cpp -o CMakeFiles/GAME.dir/src/Game.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/M0M0/gameEngine/pong2/src/Game.cpp -o CMakeFiles/GAME.dir/src/Game.cpp.s
+
+CMakeFiles/GAME.dir/src/main.cpp.o: CMakeFiles/GAME.dir/flags.make
+CMakeFiles/GAME.dir/src/main.cpp.o: /home/M0M0/gameEngine/pong2/src/main.cpp
+CMakeFiles/GAME.dir/src/main.cpp.o: CMakeFiles/GAME.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/M0M0/gameEngine/pong2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GAME.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GAME.dir/src/main.cpp.o -MF CMakeFiles/GAME.dir/src/main.cpp.o.d -o CMakeFiles/GAME.dir/src/main.cpp.o -c /home/M0M0/gameEngine/pong2/src/main.cpp
+
+CMakeFiles/GAME.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GAME.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/M0M0/gameEngine/pong2/src/main.cpp > CMakeFiles/GAME.dir/src/main.cpp.i
+
+CMakeFiles/GAME.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GAME.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/M0M0/gameEngine/pong2/src/main.cpp -o CMakeFiles/GAME.dir/src/main.cpp.s
+
+CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o: CMakeFiles/GAME.dir/flags.make
+CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o: /home/M0M0/gameEngine/pong2/src/scenes/BreakoutScene.cpp
+CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o: CMakeFiles/GAME.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/M0M0/gameEngine/pong2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o -MF CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o.d -o CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o -c /home/M0M0/gameEngine/pong2/src/scenes/BreakoutScene.cpp
+
+CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/M0M0/gameEngine/pong2/src/scenes/BreakoutScene.cpp > CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.i
+
+CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/M0M0/gameEngine/pong2/src/scenes/BreakoutScene.cpp -o CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.s
 
 # Object files for target GAME
 GAME_OBJECTS = \
+"CMakeFiles/GAME.dir/src/Game.cpp.o" \
 "CMakeFiles/GAME.dir/src/main.cpp.o" \
-"CMakeFiles/GAME.dir/src/Game.cpp.o"
+"CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o"
 
 # External object files for target GAME
 GAME_EXTERNAL_OBJECTS =
 
-GAME: CMakeFiles/GAME.dir/src/main.cpp.o
 GAME: CMakeFiles/GAME.dir/src/Game.cpp.o
+GAME: CMakeFiles/GAME.dir/src/main.cpp.o
+GAME: CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o
 GAME: CMakeFiles/GAME.dir/build.make
 GAME: CMakeFiles/GAME.dir/compiler_depend.ts
 GAME: /usr/local/lib/libraylib.a
 GAME: CMakeFiles/GAME.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/M0M0/gameEngine/Pong/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable GAME"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/M0M0/gameEngine/pong2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable GAME"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GAME.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -126,6 +142,6 @@ CMakeFiles/GAME.dir/clean:
 .PHONY : CMakeFiles/GAME.dir/clean
 
 CMakeFiles/GAME.dir/depend:
-	cd /home/M0M0/gameEngine/Pong/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/M0M0/gameEngine/Pong /home/M0M0/gameEngine/Pong /home/M0M0/gameEngine/Pong/build /home/M0M0/gameEngine/Pong/build /home/M0M0/gameEngine/Pong/build/CMakeFiles/GAME.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/M0M0/gameEngine/pong2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/M0M0/gameEngine/pong2 /home/M0M0/gameEngine/pong2 /home/M0M0/gameEngine/pong2/build /home/M0M0/gameEngine/pong2/build /home/M0M0/gameEngine/pong2/build/CMakeFiles/GAME.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/GAME.dir/depend
 

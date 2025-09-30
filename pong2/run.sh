@@ -1,3 +1,3 @@
 #! /bin/sh
 
-./configure.sh && ./build.sh && ./build/GAME
+./configure.sh && echo " --- Configure Done." && ./build.sh && echo " --- Build Done." && ./build/GAME

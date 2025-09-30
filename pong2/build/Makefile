@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/M0M0/gameEngine/Pong
+CMAKE_SOURCE_DIR = /home/M0M0/gameEngine/pong2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/M0M0/gameEngine/Pong/build
+CMAKE_BINARY_DIR = /home/M0M0/gameEngine/pong2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,17 +87,10 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/M0M0/gameEngine/Pong/build/CMakeFiles /home/M0M0/gameEngine/Pong/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/M0M0/gameEngine/pong2/build/CMakeFiles /home/M0M0/gameEngine/pong2/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/M0M0/gameEngine/Pong/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/M0M0/gameEngine/pong2/build/CMakeFiles 0
 .PHONY : all
-
-# The main codegen target
-codegen: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/M0M0/gameEngine/Pong/build/CMakeFiles /home/M0M0/gameEngine/Pong/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 codegen
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/M0M0/gameEngine/Pong/build/CMakeFiles 0
-.PHONY : codegen
 
 # The main clean target
 clean:
@@ -120,7 +113,6 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P /home/M0M0/gameEngine/Pong/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -185,13 +177,36 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/scenes/BreakoutScene.o: src/scenes/BreakoutScene.cpp.o
+.PHONY : src/scenes/BreakoutScene.o
+
+# target to build an object file
+src/scenes/BreakoutScene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o
+.PHONY : src/scenes/BreakoutScene.cpp.o
+
+src/scenes/BreakoutScene.i: src/scenes/BreakoutScene.cpp.i
+.PHONY : src/scenes/BreakoutScene.i
+
+# target to preprocess a source file
+src/scenes/BreakoutScene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.i
+.PHONY : src/scenes/BreakoutScene.cpp.i
+
+src/scenes/BreakoutScene.s: src/scenes/BreakoutScene.cpp.s
+.PHONY : src/scenes/BreakoutScene.s
+
+# target to generate assembly for a file
+src/scenes/BreakoutScene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.s
+.PHONY : src/scenes/BreakoutScene.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... codegen"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... GAME"
@@ -201,6 +216,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/scenes/BreakoutScene.o"
+	@echo "... src/scenes/BreakoutScene.i"
+	@echo "... src/scenes/BreakoutScene.s"
 .PHONY : help
 
 
@@ -212,7 +230,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /home/M0M0/gameEngine/Pong/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

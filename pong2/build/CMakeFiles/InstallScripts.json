@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/M0M0/gameEngine/Pong/build/cmake_install.cmake"
+		"/home/M0M0/gameEngine/pong2/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

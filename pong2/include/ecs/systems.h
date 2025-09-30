@@ -1,6 +1,7 @@
 #pragma once
 #include "ecs/Scene.h"
 #include <raylib.h>
+class Scene;
 
 class System {
 protected:

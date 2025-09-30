@@ -1,17 +1,10 @@
 #include "Game.h"
+#include "scenes/BreakoutScene.h"
 
 int main() {
-  Game game("Pong", 800, 600);
-  game.setup();
-
-  while (game.running()) {
-    game.frame_start();
-    game.handle_events();
-    game.update();
-    game.render();
-    game.frame_end();
-  }
-
-  game.clean();
+  const int W = 800, H = 600;
+  Game game("Breakout ECS", W, H);
+  game.setScene(new BreakoutScene(W, H));
+  game.run();
   return 0;
 }
