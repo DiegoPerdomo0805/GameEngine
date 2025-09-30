@@ -53,7 +53,7 @@ void BreakoutScene::update(float dt) {
     bool hitRight  = (t.pos.x + s.size.x >= width);
 
     if (hitLeft || hitRight) {
-      // Requisito tarea #2: GAME OVER al tocar pared izq/der
+      // GAME OVER al tocar pared izq/der?
       ended = true;
       endMsg = "Game Over (Left/Right Wall)";
     } else {
@@ -168,7 +168,7 @@ void BreakoutScene::spawnBall() {
 
   Vector2 sz{14, 14};
   Vector2 start{ (float)width/2 - sz.x/2, (float)height/2 };
-  Vector2 v{ 180, -200 };
+  Vector2 v{ 40, -200 };
 
   ent.add<Name>(Name{"ball"});
   ent.add<Transform2D>(Transform2D{ start });

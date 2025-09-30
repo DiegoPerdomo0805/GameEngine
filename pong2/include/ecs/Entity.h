@@ -1,6 +1,7 @@
 #pragma once
 #include <entt/entt.hpp>
 #include "ecs/Scene.h"
+#include <utility>
 
 class Entity {
 public:
@@ -8,8 +9,9 @@ public:
   Entity(entt::entity h, Scene* s): handle(h), scene(s) {}
 
   template<typename T, typename... Args>
-  T& add(Args&&... args) {
-    return scene->registry().emplace_or_replace<T>(handle, std::forward<Args>(args)...);
+  // validate empty types
+  void add(Args&&... args) {
+    scene->registry().emplace_or_replace<T>(handle, std::forward<Args>(args)...);
   }
 
   template<typename T>
