@@ -18,6 +18,7 @@ public:
 
   void addSystem(std::unique_ptr<System> sys) {
     sys->setScene(this);
+    sys->setup();
     systems_.push_back(std::move(sys));
   }
 

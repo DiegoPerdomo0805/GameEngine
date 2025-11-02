@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/M0M0/gameEngine/pong2/include -I/home/M0M0/gameEngine/pong2/external/entt/single_include
+CXX_INCLUDES = -I/home/M0M0/gameEngine/pong2/include -I/home/M0M0/gameEngine/pong2/external/entt/single_include -I/home/M0M0/gameEngine/pong2/external/external/imgui -I/home/M0M0/gameEngine/pong2/external/external/rlImGui
 
 CXX_FLAGS = -std=gnu++23
 

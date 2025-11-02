@@ -1,0 +1,56 @@
+[
+{
+  "directory": "/home/M0M0/gameEngine/pong2/build",
+  "command": "/usr/bin/c++  -I/home/M0M0/gameEngine/pong2/include -I/home/M0M0/gameEngine/pong2/external/entt/single_include -I/home/M0M0/gameEngine/pong2/external/external/imgui -I/home/M0M0/gameEngine/pong2/external/external/rlImGui -std=gnu++23 -o CMakeFiles/GAME.dir/src/Game.cpp.o -c /home/M0M0/gameEngine/pong2/src/Game.cpp",
+  "file": "/home/M0M0/gameEngine/pong2/src/Game.cpp",
+  "output": "CMakeFiles/GAME.dir/src/Game.cpp.o"
+},
+{
+  "directory": "/home/M0M0/gameEngine/pong2/build",
+  "command": "/usr/bin/c++  -I/home/M0M0/gameEngine/pong2/include -I/home/M0M0/gameEngine/pong2/external/entt/single_include -I/home/M0M0/gameEngine/pong2/external/external/imgui -I/home/M0M0/gameEngine/pong2/external/external/rlImGui -std=gnu++23 -o CMakeFiles/GAME.dir/src/ecs/ImGuiSystem.cpp.o -c /home/M0M0/gameEngine/pong2/src/ecs/ImGuiSystem.cpp",
+  "file": "/home/M0M0/gameEngine/pong2/src/ecs/ImGuiSystem.cpp",
+  "output": "CMakeFiles/GAME.dir/src/ecs/ImGuiSystem.cpp.o"
+},
+{
+  "directory": "/home/M0M0/gameEngine/pong2/build",
+  "command": "/usr/bin/c++  -I/home/M0M0/gameEngine/pong2/include -I/home/M0M0/gameEngine/pong2/external/entt/single_include -I/home/M0M0/gameEngine/pong2/external/external/imgui -I/home/M0M0/gameEngine/pong2/external/external/rlImGui -std=gnu++23 -o CMakeFiles/GAME.dir/src/main.cpp.o -c /home/M0M0/gameEngine/pong2/src/main.cpp",
+  "file": "/home/M0M0/gameEngine/pong2/src/main.cpp",
+  "output": "CMakeFiles/GAME.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/M0M0/gameEngine/pong2/build",
+  "command": "/usr/bin/c++  -I/home/M0M0/gameEngine/pong2/include -I/home/M0M0/gameEngine/pong2/external/entt/single_include -I/home/M0M0/gameEngine/pong2/external/external/imgui -I/home/M0M0/gameEngine/pong2/external/external/rlImGui -std=gnu++23 -o CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o -c /home/M0M0/gameEngine/pong2/src/scenes/BreakoutScene.cpp",
+  "file": "/home/M0M0/gameEngine/pong2/src/scenes/BreakoutScene.cpp",
+  "output": "CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o"
+},
+{
+  "directory": "/home/M0M0/gameEngine/pong2/build",
+  "command": "/usr/bin/c++  -I/home/M0M0/gameEngine/pong2/include -I/home/M0M0/gameEngine/pong2/external/entt/single_include -I/home/M0M0/gameEngine/pong2/external/external/imgui -I/home/M0M0/gameEngine/pong2/external/external/rlImGui -std=gnu++23 -o CMakeFiles/GAME.dir/external/external/imgui/imgui.cpp.o -c /home/M0M0/gameEngine/pong2/external/external/imgui/imgui.cpp",
+  "file": "/home/M0M0/gameEngine/pong2/external/external/imgui/imgui.cpp",
+  "output": "CMakeFiles/GAME.dir/external/external/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/home/M0M0/gameEngine/pong2/build",
+  "command": "/usr/bin/c++  -I/home/M0M0/gameEngine/pong2/include -I/home/M0M0/gameEngine/pong2/external/entt/single_include -I/home/M0M0/gameEngine/pong2/external/external/imgui -I/home/M0M0/gameEngine/pong2/external/external/rlImGui -std=gnu++23 -o CMakeFiles/GAME.dir/external/external/imgui/imgui_draw.cpp.o -c /home/M0M0/gameEngine/pong2/external/external/imgui/imgui_draw.cpp",
+  "file": "/home/M0M0/gameEngine/pong2/external/external/imgui/imgui_draw.cpp",
+  "output": "CMakeFiles/GAME.dir/external/external/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/home/M0M0/gameEngine/pong2/build",
+  "command": "/usr/bin/c++  -I/home/M0M0/gameEngine/pong2/include -I/home/M0M0/gameEngine/pong2/external/entt/single_include -I/home/M0M0/gameEngine/pong2/external/external/imgui -I/home/M0M0/gameEngine/pong2/external/external/rlImGui -std=gnu++23 -o CMakeFiles/GAME.dir/external/external/imgui/imgui_tables.cpp.o -c /home/M0M0/gameEngine/pong2/external/external/imgui/imgui_tables.cpp",
+  "file": "/home/M0M0/gameEngine/pong2/external/external/imgui/imgui_tables.cpp",
+  "output": "CMakeFiles/GAME.dir/external/external/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/home/M0M0/gameEngine/pong2/build",
+  "command": "/usr/bin/c++  -I/home/M0M0/gameEngine/pong2/include -I/home/M0M0/gameEngine/pong2/external/entt/single_include -I/home/M0M0/gameEngine/pong2/external/external/imgui -I/home/M0M0/gameEngine/pong2/external/external/rlImGui -std=gnu++23 -o CMakeFiles/GAME.dir/external/external/imgui/imgui_widgets.cpp.o -c /home/M0M0/gameEngine/pong2/external/external/imgui/imgui_widgets.cpp",
+  "file": "/home/M0M0/gameEngine/pong2/external/external/imgui/imgui_widgets.cpp",
+  "output": "CMakeFiles/GAME.dir/external/external/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/home/M0M0/gameEngine/pong2/build",
+  "command": "/usr/bin/c++  -I/home/M0M0/gameEngine/pong2/include -I/home/M0M0/gameEngine/pong2/external/entt/single_include -I/home/M0M0/gameEngine/pong2/external/external/imgui -I/home/M0M0/gameEngine/pong2/external/external/rlImGui -std=gnu++23 -o CMakeFiles/GAME.dir/external/external/rlImGui/rlImGui.cpp.o -c /home/M0M0/gameEngine/pong2/external/external/rlImGui/rlImGui.cpp",
+  "file": "/home/M0M0/gameEngine/pong2/external/external/rlImGui/rlImGui.cpp",
+  "output": "CMakeFiles/GAME.dir/external/external/rlImGui/rlImGui.cpp.o"
+}
+]

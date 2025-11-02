@@ -314,4 +314,5 @@ CMakeFiles/GAME.dir/src/Game.cpp.o: \
  /opt/gcc-15/include/c++/15.1.0/bits/stl_multiset.h \
  /opt/gcc-15/include/c++/15.1.0/unordered_set \
  /opt/gcc-15/include/c++/15.1.0/bits/unordered_set.h \
- /home/M0M0/gameEngine/pong2/include/ecs/systems.h
+ /home/M0M0/gameEngine/pong2/include/ecs/systems.h \
+ /home/M0M0/gameEngine/pong2/include/ecs/Globals.h

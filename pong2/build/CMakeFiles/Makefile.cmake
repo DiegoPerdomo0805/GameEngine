@@ -10,6 +10,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/M0M0/gameEngine/pong2/CMakeLists.txt"
   "CMakeFiles/4.0.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.3/CMakeSystem.cmake"
+  "CMakeFiles/VerifyGlobs.cmake"
+  "CMakeFiles/cmake.verify_globs"
   "/usr/local/lib/cmake/raylib/raylib-config-version.cmake"
   "/usr/local/lib/cmake/raylib/raylib-config.cmake"
   "/usr/local/share/cmake-4.0/Modules/CMakeCXXInformation.cmake"

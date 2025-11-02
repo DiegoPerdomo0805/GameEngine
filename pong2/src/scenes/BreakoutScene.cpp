@@ -2,12 +2,16 @@
 #include <raylib.h>
 #include <format>
 #include <algorithm>
+#include "ecs/ImGuiSystem.h"
+#include "ecs/Globals.h"
+
 
 void BreakoutScene::setup() {
   // Paddle, Ball, Blocks
   spawnPaddle();
   spawnBall();
-  spawnBlocks(/*rows*/5, /*cols*/10, /*bw*/60, /*bh*/20, /*gap*/6, /*margin*/30);
+  spawnBlocks(/*rows*/5, /*cols*/10, /*bw*/60, /*bh*/20, /*gap*/6, /*margin*/40);
+  addSystem(std::make_unique<ImGuiSystem>());
 }
 
 void BreakoutScene::update(float dt) {
@@ -52,18 +56,17 @@ void BreakoutScene::update(float dt) {
     bool hitLeft   = (t.pos.x <= 0);
     bool hitRight  = (t.pos.x + s.size.x >= width);
 
-    if (hitLeft || hitRight) {
-      // GAME OVER al tocar pared izq/der?
+    if (hitBottom) {
       ended = true;
-      endMsg = "Game Over (Left/Right Wall)";
+      endMsg = "Game Over";
     } else {
-      if (hitTop) {
+      if (hitLeft||hitRight) {
         t.pos.y = std::max(0.0f, t.pos.y);
         v.vel.y *= -1;
         scale.factor = std::min(scale.factor * 1.05f, scale.maxFactor);
       }
-      if (hitBottom) {
-        t.pos.y = height - s.size.y;
+      if (hitTop) {
+        t.pos.y = height + s.size.y;
         v.vel.y *= -1;
         scale.factor = std::min(scale.factor * 1.05f, scale.maxFactor);
       }
@@ -144,6 +147,13 @@ void BreakoutScene::render() {
 
   // overlay
   DrawText(std::format("FPS: {}", GetFPS()).c_str(), 10, 10, 20, DARKGRAY);
+
+  if (gPaused) {
+    const char* txt = "PAUSED";
+    int fs = 48;
+    int tw = MeasureText(txt, fs);
+    DrawText(txt, (GetScreenWidth()-tw)/2, 20, fs, YELLOW);
+  }
 }
 
 void BreakoutScene::spawnPaddle() {

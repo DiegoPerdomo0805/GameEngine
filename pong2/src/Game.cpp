@@ -3,6 +3,7 @@
 #include <print>
 #include <format>
 #include "../include/ecs/Scene.h"
+#include "ecs/Globals.h"  
 
 Game::Game(const char* title, int width, int height)
 : screen_width(width), screen_height(height) {
@@ -36,7 +37,9 @@ void Game::handleEvents() {
 }
 
 void Game::update() {
-  if (currentScene) currentScene->update(dT);
+  if (currentScene && !gPaused){
+    currentScene->update(dT);
+  }
 }
 
 void Game::render() {

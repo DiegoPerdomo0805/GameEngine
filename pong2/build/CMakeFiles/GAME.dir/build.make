@@ -86,10 +86,24 @@ CMakeFiles/GAME.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GAME.dir/src/Game.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/M0M0/gameEngine/pong2/src/Game.cpp -o CMakeFiles/GAME.dir/src/Game.cpp.s
 
+CMakeFiles/GAME.dir/src/ecs/ImGuiSystem.cpp.o: CMakeFiles/GAME.dir/flags.make
+CMakeFiles/GAME.dir/src/ecs/ImGuiSystem.cpp.o: /home/M0M0/gameEngine/pong2/src/ecs/ImGuiSystem.cpp
+CMakeFiles/GAME.dir/src/ecs/ImGuiSystem.cpp.o: CMakeFiles/GAME.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/M0M0/gameEngine/pong2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GAME.dir/src/ecs/ImGuiSystem.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GAME.dir/src/ecs/ImGuiSystem.cpp.o -MF CMakeFiles/GAME.dir/src/ecs/ImGuiSystem.cpp.o.d -o CMakeFiles/GAME.dir/src/ecs/ImGuiSystem.cpp.o -c /home/M0M0/gameEngine/pong2/src/ecs/ImGuiSystem.cpp
+
+CMakeFiles/GAME.dir/src/ecs/ImGuiSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GAME.dir/src/ecs/ImGuiSystem.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/M0M0/gameEngine/pong2/src/ecs/ImGuiSystem.cpp > CMakeFiles/GAME.dir/src/ecs/ImGuiSystem.cpp.i
+
+CMakeFiles/GAME.dir/src/ecs/ImGuiSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GAME.dir/src/ecs/ImGuiSystem.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/M0M0/gameEngine/pong2/src/ecs/ImGuiSystem.cpp -o CMakeFiles/GAME.dir/src/ecs/ImGuiSystem.cpp.s
+
 CMakeFiles/GAME.dir/src/main.cpp.o: CMakeFiles/GAME.dir/flags.make
 CMakeFiles/GAME.dir/src/main.cpp.o: /home/M0M0/gameEngine/pong2/src/main.cpp
 CMakeFiles/GAME.dir/src/main.cpp.o: CMakeFiles/GAME.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/M0M0/gameEngine/pong2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GAME.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/M0M0/gameEngine/pong2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GAME.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GAME.dir/src/main.cpp.o -MF CMakeFiles/GAME.dir/src/main.cpp.o.d -o CMakeFiles/GAME.dir/src/main.cpp.o -c /home/M0M0/gameEngine/pong2/src/main.cpp
 
 CMakeFiles/GAME.dir/src/main.cpp.i: cmake_force
@@ -103,7 +117,7 @@ CMakeFiles/GAME.dir/src/main.cpp.s: cmake_force
 CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o: CMakeFiles/GAME.dir/flags.make
 CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o: /home/M0M0/gameEngine/pong2/src/scenes/BreakoutScene.cpp
 CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o: CMakeFiles/GAME.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/M0M0/gameEngine/pong2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/M0M0/gameEngine/pong2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o -MF CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o.d -o CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o -c /home/M0M0/gameEngine/pong2/src/scenes/BreakoutScene.cpp
 
 CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.i: cmake_force
@@ -114,23 +128,105 @@ CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/M0M0/gameEngine/pong2/src/scenes/BreakoutScene.cpp -o CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.s
 
+CMakeFiles/GAME.dir/external/external/imgui/imgui.cpp.o: CMakeFiles/GAME.dir/flags.make
+CMakeFiles/GAME.dir/external/external/imgui/imgui.cpp.o: /home/M0M0/gameEngine/pong2/external/external/imgui/imgui.cpp
+CMakeFiles/GAME.dir/external/external/imgui/imgui.cpp.o: CMakeFiles/GAME.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/M0M0/gameEngine/pong2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GAME.dir/external/external/imgui/imgui.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GAME.dir/external/external/imgui/imgui.cpp.o -MF CMakeFiles/GAME.dir/external/external/imgui/imgui.cpp.o.d -o CMakeFiles/GAME.dir/external/external/imgui/imgui.cpp.o -c /home/M0M0/gameEngine/pong2/external/external/imgui/imgui.cpp
+
+CMakeFiles/GAME.dir/external/external/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GAME.dir/external/external/imgui/imgui.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/M0M0/gameEngine/pong2/external/external/imgui/imgui.cpp > CMakeFiles/GAME.dir/external/external/imgui/imgui.cpp.i
+
+CMakeFiles/GAME.dir/external/external/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GAME.dir/external/external/imgui/imgui.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/M0M0/gameEngine/pong2/external/external/imgui/imgui.cpp -o CMakeFiles/GAME.dir/external/external/imgui/imgui.cpp.s
+
+CMakeFiles/GAME.dir/external/external/imgui/imgui_draw.cpp.o: CMakeFiles/GAME.dir/flags.make
+CMakeFiles/GAME.dir/external/external/imgui/imgui_draw.cpp.o: /home/M0M0/gameEngine/pong2/external/external/imgui/imgui_draw.cpp
+CMakeFiles/GAME.dir/external/external/imgui/imgui_draw.cpp.o: CMakeFiles/GAME.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/M0M0/gameEngine/pong2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GAME.dir/external/external/imgui/imgui_draw.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GAME.dir/external/external/imgui/imgui_draw.cpp.o -MF CMakeFiles/GAME.dir/external/external/imgui/imgui_draw.cpp.o.d -o CMakeFiles/GAME.dir/external/external/imgui/imgui_draw.cpp.o -c /home/M0M0/gameEngine/pong2/external/external/imgui/imgui_draw.cpp
+
+CMakeFiles/GAME.dir/external/external/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GAME.dir/external/external/imgui/imgui_draw.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/M0M0/gameEngine/pong2/external/external/imgui/imgui_draw.cpp > CMakeFiles/GAME.dir/external/external/imgui/imgui_draw.cpp.i
+
+CMakeFiles/GAME.dir/external/external/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GAME.dir/external/external/imgui/imgui_draw.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/M0M0/gameEngine/pong2/external/external/imgui/imgui_draw.cpp -o CMakeFiles/GAME.dir/external/external/imgui/imgui_draw.cpp.s
+
+CMakeFiles/GAME.dir/external/external/imgui/imgui_tables.cpp.o: CMakeFiles/GAME.dir/flags.make
+CMakeFiles/GAME.dir/external/external/imgui/imgui_tables.cpp.o: /home/M0M0/gameEngine/pong2/external/external/imgui/imgui_tables.cpp
+CMakeFiles/GAME.dir/external/external/imgui/imgui_tables.cpp.o: CMakeFiles/GAME.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/M0M0/gameEngine/pong2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/GAME.dir/external/external/imgui/imgui_tables.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GAME.dir/external/external/imgui/imgui_tables.cpp.o -MF CMakeFiles/GAME.dir/external/external/imgui/imgui_tables.cpp.o.d -o CMakeFiles/GAME.dir/external/external/imgui/imgui_tables.cpp.o -c /home/M0M0/gameEngine/pong2/external/external/imgui/imgui_tables.cpp
+
+CMakeFiles/GAME.dir/external/external/imgui/imgui_tables.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GAME.dir/external/external/imgui/imgui_tables.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/M0M0/gameEngine/pong2/external/external/imgui/imgui_tables.cpp > CMakeFiles/GAME.dir/external/external/imgui/imgui_tables.cpp.i
+
+CMakeFiles/GAME.dir/external/external/imgui/imgui_tables.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GAME.dir/external/external/imgui/imgui_tables.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/M0M0/gameEngine/pong2/external/external/imgui/imgui_tables.cpp -o CMakeFiles/GAME.dir/external/external/imgui/imgui_tables.cpp.s
+
+CMakeFiles/GAME.dir/external/external/imgui/imgui_widgets.cpp.o: CMakeFiles/GAME.dir/flags.make
+CMakeFiles/GAME.dir/external/external/imgui/imgui_widgets.cpp.o: /home/M0M0/gameEngine/pong2/external/external/imgui/imgui_widgets.cpp
+CMakeFiles/GAME.dir/external/external/imgui/imgui_widgets.cpp.o: CMakeFiles/GAME.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/M0M0/gameEngine/pong2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/GAME.dir/external/external/imgui/imgui_widgets.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GAME.dir/external/external/imgui/imgui_widgets.cpp.o -MF CMakeFiles/GAME.dir/external/external/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/GAME.dir/external/external/imgui/imgui_widgets.cpp.o -c /home/M0M0/gameEngine/pong2/external/external/imgui/imgui_widgets.cpp
+
+CMakeFiles/GAME.dir/external/external/imgui/imgui_widgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GAME.dir/external/external/imgui/imgui_widgets.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/M0M0/gameEngine/pong2/external/external/imgui/imgui_widgets.cpp > CMakeFiles/GAME.dir/external/external/imgui/imgui_widgets.cpp.i
+
+CMakeFiles/GAME.dir/external/external/imgui/imgui_widgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GAME.dir/external/external/imgui/imgui_widgets.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/M0M0/gameEngine/pong2/external/external/imgui/imgui_widgets.cpp -o CMakeFiles/GAME.dir/external/external/imgui/imgui_widgets.cpp.s
+
+CMakeFiles/GAME.dir/external/external/rlImGui/rlImGui.cpp.o: CMakeFiles/GAME.dir/flags.make
+CMakeFiles/GAME.dir/external/external/rlImGui/rlImGui.cpp.o: /home/M0M0/gameEngine/pong2/external/external/rlImGui/rlImGui.cpp
+CMakeFiles/GAME.dir/external/external/rlImGui/rlImGui.cpp.o: CMakeFiles/GAME.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/M0M0/gameEngine/pong2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/GAME.dir/external/external/rlImGui/rlImGui.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GAME.dir/external/external/rlImGui/rlImGui.cpp.o -MF CMakeFiles/GAME.dir/external/external/rlImGui/rlImGui.cpp.o.d -o CMakeFiles/GAME.dir/external/external/rlImGui/rlImGui.cpp.o -c /home/M0M0/gameEngine/pong2/external/external/rlImGui/rlImGui.cpp
+
+CMakeFiles/GAME.dir/external/external/rlImGui/rlImGui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GAME.dir/external/external/rlImGui/rlImGui.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/M0M0/gameEngine/pong2/external/external/rlImGui/rlImGui.cpp > CMakeFiles/GAME.dir/external/external/rlImGui/rlImGui.cpp.i
+
+CMakeFiles/GAME.dir/external/external/rlImGui/rlImGui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GAME.dir/external/external/rlImGui/rlImGui.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/M0M0/gameEngine/pong2/external/external/rlImGui/rlImGui.cpp -o CMakeFiles/GAME.dir/external/external/rlImGui/rlImGui.cpp.s
+
 # Object files for target GAME
 GAME_OBJECTS = \
 "CMakeFiles/GAME.dir/src/Game.cpp.o" \
+"CMakeFiles/GAME.dir/src/ecs/ImGuiSystem.cpp.o" \
 "CMakeFiles/GAME.dir/src/main.cpp.o" \
-"CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o"
+"CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o" \
+"CMakeFiles/GAME.dir/external/external/imgui/imgui.cpp.o" \
+"CMakeFiles/GAME.dir/external/external/imgui/imgui_draw.cpp.o" \
+"CMakeFiles/GAME.dir/external/external/imgui/imgui_tables.cpp.o" \
+"CMakeFiles/GAME.dir/external/external/imgui/imgui_widgets.cpp.o" \
+"CMakeFiles/GAME.dir/external/external/rlImGui/rlImGui.cpp.o"
 
 # External object files for target GAME
 GAME_EXTERNAL_OBJECTS =
 
 GAME: CMakeFiles/GAME.dir/src/Game.cpp.o
+GAME: CMakeFiles/GAME.dir/src/ecs/ImGuiSystem.cpp.o
 GAME: CMakeFiles/GAME.dir/src/main.cpp.o
 GAME: CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o
+GAME: CMakeFiles/GAME.dir/external/external/imgui/imgui.cpp.o
+GAME: CMakeFiles/GAME.dir/external/external/imgui/imgui_draw.cpp.o
+GAME: CMakeFiles/GAME.dir/external/external/imgui/imgui_tables.cpp.o
+GAME: CMakeFiles/GAME.dir/external/external/imgui/imgui_widgets.cpp.o
+GAME: CMakeFiles/GAME.dir/external/external/rlImGui/rlImGui.cpp.o
 GAME: CMakeFiles/GAME.dir/build.make
 GAME: CMakeFiles/GAME.dir/compiler_depend.ts
 GAME: /usr/local/lib/libraylib.a
 GAME: CMakeFiles/GAME.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/M0M0/gameEngine/pong2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable GAME"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/M0M0/gameEngine/pong2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable GAME"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GAME.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
