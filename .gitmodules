@@ -1,3 +1,9 @@
 [submodule "external/entt"]
 	path = external/entt
 	url = https://github.com/skypjack/entt
+[submodule "pong2/external/imgui"]
+	path = pong2/external/imgui
+	url = https://github.com/ocornut/imgui
+[submodule "pong2/external/rlImGui"]
+	path = pong2/external/rlImGui
+	url = https://github.com/raylib-extras/rlImGui
