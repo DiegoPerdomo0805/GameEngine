@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/M0M0/gameEngine/pong2
+CMAKE_SOURCE_DIR = /home/M0M0/GameEngine/pong2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/M0M0/gameEngine/pong2/build
+CMAKE_BINARY_DIR = /home/M0M0/GameEngine/pong2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/M0M0/gameEngine/pong2/build/CMakeFiles /home/M0M0/gameEngine/pong2/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/M0M0/GameEngine/pong2/build/CMakeFiles /home/M0M0/GameEngine/pong2/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/M0M0/gameEngine/pong2/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/M0M0/GameEngine/pong2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -113,7 +113,7 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P /home/M0M0/gameEngine/pong2/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /home/M0M0/GameEngine/pong2/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -130,125 +130,125 @@ GAME/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/build
 .PHONY : GAME/fast
 
-external/external/imgui/imgui.o: external/external/imgui/imgui.cpp.o
-.PHONY : external/external/imgui/imgui.o
+external/imgui/imgui.o: external/imgui/imgui.cpp.o
+.PHONY : external/imgui/imgui.o
 
 # target to build an object file
-external/external/imgui/imgui.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/external/imgui/imgui.cpp.o
-.PHONY : external/external/imgui/imgui.cpp.o
+external/imgui/imgui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/imgui/imgui.cpp.o
+.PHONY : external/imgui/imgui.cpp.o
 
-external/external/imgui/imgui.i: external/external/imgui/imgui.cpp.i
-.PHONY : external/external/imgui/imgui.i
+external/imgui/imgui.i: external/imgui/imgui.cpp.i
+.PHONY : external/imgui/imgui.i
 
 # target to preprocess a source file
-external/external/imgui/imgui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/external/imgui/imgui.cpp.i
-.PHONY : external/external/imgui/imgui.cpp.i
+external/imgui/imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/imgui/imgui.cpp.i
+.PHONY : external/imgui/imgui.cpp.i
 
-external/external/imgui/imgui.s: external/external/imgui/imgui.cpp.s
-.PHONY : external/external/imgui/imgui.s
+external/imgui/imgui.s: external/imgui/imgui.cpp.s
+.PHONY : external/imgui/imgui.s
 
 # target to generate assembly for a file
-external/external/imgui/imgui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/external/imgui/imgui.cpp.s
-.PHONY : external/external/imgui/imgui.cpp.s
+external/imgui/imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/imgui/imgui.cpp.s
+.PHONY : external/imgui/imgui.cpp.s
 
-external/external/imgui/imgui_draw.o: external/external/imgui/imgui_draw.cpp.o
-.PHONY : external/external/imgui/imgui_draw.o
+external/imgui/imgui_draw.o: external/imgui/imgui_draw.cpp.o
+.PHONY : external/imgui/imgui_draw.o
 
 # target to build an object file
-external/external/imgui/imgui_draw.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/external/imgui/imgui_draw.cpp.o
-.PHONY : external/external/imgui/imgui_draw.cpp.o
+external/imgui/imgui_draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/imgui/imgui_draw.cpp.o
+.PHONY : external/imgui/imgui_draw.cpp.o
 
-external/external/imgui/imgui_draw.i: external/external/imgui/imgui_draw.cpp.i
-.PHONY : external/external/imgui/imgui_draw.i
+external/imgui/imgui_draw.i: external/imgui/imgui_draw.cpp.i
+.PHONY : external/imgui/imgui_draw.i
 
 # target to preprocess a source file
-external/external/imgui/imgui_draw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/external/imgui/imgui_draw.cpp.i
-.PHONY : external/external/imgui/imgui_draw.cpp.i
+external/imgui/imgui_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/imgui/imgui_draw.cpp.i
+.PHONY : external/imgui/imgui_draw.cpp.i
 
-external/external/imgui/imgui_draw.s: external/external/imgui/imgui_draw.cpp.s
-.PHONY : external/external/imgui/imgui_draw.s
+external/imgui/imgui_draw.s: external/imgui/imgui_draw.cpp.s
+.PHONY : external/imgui/imgui_draw.s
 
 # target to generate assembly for a file
-external/external/imgui/imgui_draw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/external/imgui/imgui_draw.cpp.s
-.PHONY : external/external/imgui/imgui_draw.cpp.s
+external/imgui/imgui_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/imgui/imgui_draw.cpp.s
+.PHONY : external/imgui/imgui_draw.cpp.s
 
-external/external/imgui/imgui_tables.o: external/external/imgui/imgui_tables.cpp.o
-.PHONY : external/external/imgui/imgui_tables.o
+external/imgui/imgui_tables.o: external/imgui/imgui_tables.cpp.o
+.PHONY : external/imgui/imgui_tables.o
 
 # target to build an object file
-external/external/imgui/imgui_tables.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/external/imgui/imgui_tables.cpp.o
-.PHONY : external/external/imgui/imgui_tables.cpp.o
+external/imgui/imgui_tables.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/imgui/imgui_tables.cpp.o
+.PHONY : external/imgui/imgui_tables.cpp.o
 
-external/external/imgui/imgui_tables.i: external/external/imgui/imgui_tables.cpp.i
-.PHONY : external/external/imgui/imgui_tables.i
+external/imgui/imgui_tables.i: external/imgui/imgui_tables.cpp.i
+.PHONY : external/imgui/imgui_tables.i
 
 # target to preprocess a source file
-external/external/imgui/imgui_tables.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/external/imgui/imgui_tables.cpp.i
-.PHONY : external/external/imgui/imgui_tables.cpp.i
+external/imgui/imgui_tables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/imgui/imgui_tables.cpp.i
+.PHONY : external/imgui/imgui_tables.cpp.i
 
-external/external/imgui/imgui_tables.s: external/external/imgui/imgui_tables.cpp.s
-.PHONY : external/external/imgui/imgui_tables.s
+external/imgui/imgui_tables.s: external/imgui/imgui_tables.cpp.s
+.PHONY : external/imgui/imgui_tables.s
 
 # target to generate assembly for a file
-external/external/imgui/imgui_tables.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/external/imgui/imgui_tables.cpp.s
-.PHONY : external/external/imgui/imgui_tables.cpp.s
+external/imgui/imgui_tables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/imgui/imgui_tables.cpp.s
+.PHONY : external/imgui/imgui_tables.cpp.s
 
-external/external/imgui/imgui_widgets.o: external/external/imgui/imgui_widgets.cpp.o
-.PHONY : external/external/imgui/imgui_widgets.o
+external/imgui/imgui_widgets.o: external/imgui/imgui_widgets.cpp.o
+.PHONY : external/imgui/imgui_widgets.o
 
 # target to build an object file
-external/external/imgui/imgui_widgets.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/external/imgui/imgui_widgets.cpp.o
-.PHONY : external/external/imgui/imgui_widgets.cpp.o
+external/imgui/imgui_widgets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/imgui/imgui_widgets.cpp.o
+.PHONY : external/imgui/imgui_widgets.cpp.o
 
-external/external/imgui/imgui_widgets.i: external/external/imgui/imgui_widgets.cpp.i
-.PHONY : external/external/imgui/imgui_widgets.i
+external/imgui/imgui_widgets.i: external/imgui/imgui_widgets.cpp.i
+.PHONY : external/imgui/imgui_widgets.i
 
 # target to preprocess a source file
-external/external/imgui/imgui_widgets.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/external/imgui/imgui_widgets.cpp.i
-.PHONY : external/external/imgui/imgui_widgets.cpp.i
+external/imgui/imgui_widgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/imgui/imgui_widgets.cpp.i
+.PHONY : external/imgui/imgui_widgets.cpp.i
 
-external/external/imgui/imgui_widgets.s: external/external/imgui/imgui_widgets.cpp.s
-.PHONY : external/external/imgui/imgui_widgets.s
+external/imgui/imgui_widgets.s: external/imgui/imgui_widgets.cpp.s
+.PHONY : external/imgui/imgui_widgets.s
 
 # target to generate assembly for a file
-external/external/imgui/imgui_widgets.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/external/imgui/imgui_widgets.cpp.s
-.PHONY : external/external/imgui/imgui_widgets.cpp.s
+external/imgui/imgui_widgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/imgui/imgui_widgets.cpp.s
+.PHONY : external/imgui/imgui_widgets.cpp.s
 
-external/external/rlImGui/rlImGui.o: external/external/rlImGui/rlImGui.cpp.o
-.PHONY : external/external/rlImGui/rlImGui.o
+external/rlImGui/rlImGui.o: external/rlImGui/rlImGui.cpp.o
+.PHONY : external/rlImGui/rlImGui.o
 
 # target to build an object file
-external/external/rlImGui/rlImGui.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/external/rlImGui/rlImGui.cpp.o
-.PHONY : external/external/rlImGui/rlImGui.cpp.o
+external/rlImGui/rlImGui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/rlImGui/rlImGui.cpp.o
+.PHONY : external/rlImGui/rlImGui.cpp.o
 
-external/external/rlImGui/rlImGui.i: external/external/rlImGui/rlImGui.cpp.i
-.PHONY : external/external/rlImGui/rlImGui.i
+external/rlImGui/rlImGui.i: external/rlImGui/rlImGui.cpp.i
+.PHONY : external/rlImGui/rlImGui.i
 
 # target to preprocess a source file
-external/external/rlImGui/rlImGui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/external/rlImGui/rlImGui.cpp.i
-.PHONY : external/external/rlImGui/rlImGui.cpp.i
+external/rlImGui/rlImGui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/rlImGui/rlImGui.cpp.i
+.PHONY : external/rlImGui/rlImGui.cpp.i
 
-external/external/rlImGui/rlImGui.s: external/external/rlImGui/rlImGui.cpp.s
-.PHONY : external/external/rlImGui/rlImGui.s
+external/rlImGui/rlImGui.s: external/rlImGui/rlImGui.cpp.s
+.PHONY : external/rlImGui/rlImGui.s
 
 # target to generate assembly for a file
-external/external/rlImGui/rlImGui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/external/rlImGui/rlImGui.cpp.s
-.PHONY : external/external/rlImGui/rlImGui.cpp.s
+external/rlImGui/rlImGui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GAME.dir/build.make CMakeFiles/GAME.dir/external/rlImGui/rlImGui.cpp.s
+.PHONY : external/rlImGui/rlImGui.cpp.s
 
 src/Game.o: src/Game.cpp.o
 .PHONY : src/Game.o
@@ -355,21 +355,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... GAME"
-	@echo "... external/external/imgui/imgui.o"
-	@echo "... external/external/imgui/imgui.i"
-	@echo "... external/external/imgui/imgui.s"
-	@echo "... external/external/imgui/imgui_draw.o"
-	@echo "... external/external/imgui/imgui_draw.i"
-	@echo "... external/external/imgui/imgui_draw.s"
-	@echo "... external/external/imgui/imgui_tables.o"
-	@echo "... external/external/imgui/imgui_tables.i"
-	@echo "... external/external/imgui/imgui_tables.s"
-	@echo "... external/external/imgui/imgui_widgets.o"
-	@echo "... external/external/imgui/imgui_widgets.i"
-	@echo "... external/external/imgui/imgui_widgets.s"
-	@echo "... external/external/rlImGui/rlImGui.o"
-	@echo "... external/external/rlImGui/rlImGui.i"
-	@echo "... external/external/rlImGui/rlImGui.s"
+	@echo "... external/imgui/imgui.o"
+	@echo "... external/imgui/imgui.i"
+	@echo "... external/imgui/imgui.s"
+	@echo "... external/imgui/imgui_draw.o"
+	@echo "... external/imgui/imgui_draw.i"
+	@echo "... external/imgui/imgui_draw.s"
+	@echo "... external/imgui/imgui_tables.o"
+	@echo "... external/imgui/imgui_tables.i"
+	@echo "... external/imgui/imgui_tables.s"
+	@echo "... external/imgui/imgui_widgets.o"
+	@echo "... external/imgui/imgui_widgets.i"
+	@echo "... external/imgui/imgui_widgets.s"
+	@echo "... external/rlImGui/rlImGui.o"
+	@echo "... external/rlImGui/rlImGui.i"
+	@echo "... external/rlImGui/rlImGui.s"
 	@echo "... src/Game.o"
 	@echo "... src/Game.i"
 	@echo "... src/Game.s"
@@ -393,7 +393,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /home/M0M0/gameEngine/pong2/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /home/M0M0/GameEngine/pong2/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

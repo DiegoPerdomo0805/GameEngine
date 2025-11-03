@@ -1,6 +1,6 @@
 CMakeFiles/GAME.dir/src/main.cpp.o: \
- /home/M0M0/gameEngine/pong2/src/main.cpp /usr/include/stdc-predef.h \
- /home/M0M0/gameEngine/pong2/src/Game.h \
+ /home/M0M0/GameEngine/pong2/src/main.cpp /usr/include/stdc-predef.h \
+ /home/M0M0/GameEngine/pong2/src/Game.h \
  /opt/gcc-15/include/c++/15.1.0/memory \
  /opt/gcc-15/include/c++/15.1.0/bits/memoryfwd.h \
  /opt/gcc-15/include/c++/15.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -222,9 +222,9 @@ CMakeFiles/GAME.dir/src/main.cpp.o: \
  /opt/gcc-15/include/c++/15.1.0/pstl/glue_memory_defs.h \
  /opt/gcc-15/include/c++/15.1.0/pstl/execution_defs.h \
  /usr/local/include/raylib.h \
- /home/M0M0/gameEngine/pong2/src/scenes/BreakoutScene.h \
- /home/M0M0/gameEngine/pong2/include/ecs/Scene.h \
- /home/M0M0/gameEngine/pong2/external/entt/single_include/entt/entt.hpp \
+ /home/M0M0/GameEngine/pong2/src/scenes/BreakoutScene.h \
+ /home/M0M0/GameEngine/pong2/include/ecs/Scene.h \
+ /home/M0M0/GameEngine/pong2/external/entt/single_include/entt/entt.hpp \
  /opt/gcc-15/include/c++/15.1.0/version \
  /opt/gcc-15/include/c++/15.1.0/cassert /usr/include/assert.h \
  /opt/gcc-15/include/c++/15.1.0/cmath /usr/include/math.h \
@@ -315,6 +315,6 @@ CMakeFiles/GAME.dir/src/main.cpp.o: \
  /opt/gcc-15/include/c++/15.1.0/bits/stl_multiset.h \
  /opt/gcc-15/include/c++/15.1.0/unordered_set \
  /opt/gcc-15/include/c++/15.1.0/bits/unordered_set.h \
- /home/M0M0/gameEngine/pong2/include/ecs/systems.h \
- /home/M0M0/gameEngine/pong2/include/ecs/Entity.h \
- /home/M0M0/gameEngine/pong2/include/ecs/components.h
+ /home/M0M0/GameEngine/pong2/include/ecs/systems.h \
+ /home/M0M0/GameEngine/pong2/include/ecs/Entity.h \
+ /home/M0M0/GameEngine/pong2/include/ecs/components.h

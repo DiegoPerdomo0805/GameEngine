@@ -1,6 +1,6 @@
 CMakeFiles/GAME.dir/src/Game.cpp.o: \
- /home/M0M0/gameEngine/pong2/src/Game.cpp /usr/include/stdc-predef.h \
- /home/M0M0/gameEngine/pong2/src/Game.h \
+ /home/M0M0/GameEngine/pong2/src/Game.cpp /usr/include/stdc-predef.h \
+ /home/M0M0/GameEngine/pong2/src/Game.h \
  /opt/gcc-15/include/c++/15.1.0/memory \
  /opt/gcc-15/include/c++/15.1.0/bits/memoryfwd.h \
  /opt/gcc-15/include/c++/15.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -245,8 +245,8 @@ CMakeFiles/GAME.dir/src/Game.cpp.o: \
  /opt/gcc-15/include/c++/15.1.0/bits/stl_heap.h \
  /opt/gcc-15/include/c++/15.1.0/bits/uniform_int_dist.h \
  /opt/gcc-15/include/c++/15.1.0/bits/unicode-data.h \
- /home/M0M0/gameEngine/pong2/src/../include/ecs/Scene.h \
- /home/M0M0/gameEngine/pong2/external/entt/single_include/entt/entt.hpp \
+ /home/M0M0/GameEngine/pong2/src/../include/ecs/Scene.h \
+ /home/M0M0/GameEngine/pong2/external/entt/single_include/entt/entt.hpp \
  /opt/gcc-15/include/c++/15.1.0/version \
  /opt/gcc-15/include/c++/15.1.0/cassert /usr/include/assert.h \
  /opt/gcc-15/include/c++/15.1.0/cmath /usr/include/math.h \
@@ -314,5 +314,5 @@ CMakeFiles/GAME.dir/src/Game.cpp.o: \
  /opt/gcc-15/include/c++/15.1.0/bits/stl_multiset.h \
  /opt/gcc-15/include/c++/15.1.0/unordered_set \
  /opt/gcc-15/include/c++/15.1.0/bits/unordered_set.h \
- /home/M0M0/gameEngine/pong2/include/ecs/systems.h \
- /home/M0M0/gameEngine/pong2/include/ecs/Globals.h
+ /home/M0M0/GameEngine/pong2/include/ecs/systems.h \
+ /home/M0M0/GameEngine/pong2/include/ecs/Globals.h

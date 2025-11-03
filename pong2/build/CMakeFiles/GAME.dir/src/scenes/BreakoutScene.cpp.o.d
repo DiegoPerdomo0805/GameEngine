@@ -1,9 +1,9 @@
 CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o: \
- /home/M0M0/gameEngine/pong2/src/scenes/BreakoutScene.cpp \
+ /home/M0M0/GameEngine/pong2/src/scenes/BreakoutScene.cpp \
  /usr/include/stdc-predef.h \
- /home/M0M0/gameEngine/pong2/src/scenes/BreakoutScene.h \
- /home/M0M0/gameEngine/pong2/include/ecs/Scene.h \
- /home/M0M0/gameEngine/pong2/external/entt/single_include/entt/entt.hpp \
+ /home/M0M0/GameEngine/pong2/src/scenes/BreakoutScene.h \
+ /home/M0M0/GameEngine/pong2/include/ecs/Scene.h \
+ /home/M0M0/GameEngine/pong2/external/entt/single_include/entt/entt.hpp \
  /opt/gcc-15/include/c++/15.1.0/version \
  /opt/gcc-15/include/c++/15.1.0/bits/version.h \
  /opt/gcc-15/include/c++/15.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -315,9 +315,9 @@ CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o: \
  /opt/gcc-15/include/c++/15.1.0/bits/stl_multiset.h \
  /opt/gcc-15/include/c++/15.1.0/unordered_set \
  /opt/gcc-15/include/c++/15.1.0/bits/unordered_set.h \
- /home/M0M0/gameEngine/pong2/include/ecs/systems.h \
- /home/M0M0/gameEngine/pong2/include/ecs/Entity.h \
- /home/M0M0/gameEngine/pong2/include/ecs/components.h \
+ /home/M0M0/GameEngine/pong2/include/ecs/systems.h \
+ /home/M0M0/GameEngine/pong2/include/ecs/Entity.h \
+ /home/M0M0/GameEngine/pong2/include/ecs/components.h \
  /usr/local/include/raylib.h \
- /home/M0M0/gameEngine/pong2/include/ecs/ImGuiSystem.h \
- /home/M0M0/gameEngine/pong2/include/ecs/Globals.h
+ /home/M0M0/GameEngine/pong2/include/ecs/ImGuiSystem.h \
+ /home/M0M0/GameEngine/pong2/include/ecs/Globals.h

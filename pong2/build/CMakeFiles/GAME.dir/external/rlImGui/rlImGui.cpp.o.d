@@ -1,13 +1,13 @@
-CMakeFiles/GAME.dir/external/external/rlImGui/rlImGui.cpp.o: \
- /home/M0M0/gameEngine/pong2/external/external/rlImGui/rlImGui.cpp \
+CMakeFiles/GAME.dir/external/rlImGui/rlImGui.cpp.o: \
+ /home/M0M0/GameEngine/pong2/external/rlImGui/rlImGui.cpp \
  /usr/include/stdc-predef.h \
- /home/M0M0/gameEngine/pong2/external/external/rlImGui/rlImGui.h \
+ /home/M0M0/GameEngine/pong2/external/rlImGui/rlImGui.h \
  /usr/local/include/raylib.h \
  /opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.1.0/include/stdarg.h \
- /home/M0M0/gameEngine/pong2/external/external/rlImGui/extras/IconsFontAwesome6.h \
- /home/M0M0/gameEngine/pong2/external/external/rlImGui/imgui_impl_raylib.h \
- /home/M0M0/gameEngine/pong2/external/external/imgui/imgui.h \
- /home/M0M0/gameEngine/pong2/external/external/imgui/imconfig.h \
+ /home/M0M0/GameEngine/pong2/external/rlImGui/extras/IconsFontAwesome6.h \
+ /home/M0M0/GameEngine/pong2/external/rlImGui/imgui_impl_raylib.h \
+ /home/M0M0/GameEngine/pong2/external/imgui/imgui.h \
+ /home/M0M0/GameEngine/pong2/external/imgui/imconfig.h \
  /opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.1.0/include/float.h \
  /opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.1.0/include/stddef.h \
  /usr/include/string.h \
@@ -141,4 +141,4 @@ CMakeFiles/GAME.dir/external/external/rlImGui/rlImGui.cpp.o: \
  /usr/include/stdint.h /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/M0M0/gameEngine/pong2/external/external/rlImGui/extras/FA6FreeSolidFontData.h
+ /home/M0M0/GameEngine/pong2/external/rlImGui/extras/FA6FreeSolidFontData.h

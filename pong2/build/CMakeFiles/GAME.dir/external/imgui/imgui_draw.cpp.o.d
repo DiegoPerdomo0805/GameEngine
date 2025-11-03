@@ -1,8 +1,8 @@
-CMakeFiles/GAME.dir/external/external/imgui/imgui_widgets.cpp.o: \
- /home/M0M0/gameEngine/pong2/external/external/imgui/imgui_widgets.cpp \
+CMakeFiles/GAME.dir/external/imgui/imgui_draw.cpp.o: \
+ /home/M0M0/GameEngine/pong2/external/imgui/imgui_draw.cpp \
  /usr/include/stdc-predef.h \
- /home/M0M0/gameEngine/pong2/external/external/imgui/imgui.h \
- /home/M0M0/gameEngine/pong2/external/external/imgui/imconfig.h \
+ /home/M0M0/GameEngine/pong2/external/imgui/imgui.h \
+ /home/M0M0/GameEngine/pong2/external/imgui/imconfig.h \
  /opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.1.0/include/float.h \
  /opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.1.0/include/stdarg.h \
  /opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.1.0/include/stddef.h \
@@ -18,7 +18,7 @@ CMakeFiles/GAME.dir/external/external/imgui/imgui_widgets.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/assert.h \
- /home/M0M0/gameEngine/pong2/external/external/imgui/imgui_internal.h \
+ /home/M0M0/GameEngine/pong2/external/imgui/imgui_internal.h \
  /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
@@ -242,4 +242,5 @@ CMakeFiles/GAME.dir/external/external/imgui/imgui_widgets.cpp.o: \
  /usr/include/stdint.h /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/M0M0/gameEngine/pong2/external/external/imgui/imstb_textedit.h
+ /home/M0M0/GameEngine/pong2/external/imgui/imstb_rectpack.h \
+ /home/M0M0/GameEngine/pong2/external/imgui/imstb_truetype.h

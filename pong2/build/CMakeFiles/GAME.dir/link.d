@@ -6,11 +6,11 @@ GAME: \
   CMakeFiles/GAME.dir/src/ecs/ImGuiSystem.cpp.o \
   CMakeFiles/GAME.dir/src/main.cpp.o \
   CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o \
-  CMakeFiles/GAME.dir/external/external/imgui/imgui.cpp.o \
-  CMakeFiles/GAME.dir/external/external/imgui/imgui_draw.cpp.o \
-  CMakeFiles/GAME.dir/external/external/imgui/imgui_tables.cpp.o \
-  CMakeFiles/GAME.dir/external/external/imgui/imgui_widgets.cpp.o \
-  CMakeFiles/GAME.dir/external/external/rlImGui/rlImGui.cpp.o \
+  CMakeFiles/GAME.dir/external/imgui/imgui.cpp.o \
+  CMakeFiles/GAME.dir/external/imgui/imgui_draw.cpp.o \
+  CMakeFiles/GAME.dir/external/imgui/imgui_tables.cpp.o \
+  CMakeFiles/GAME.dir/external/imgui/imgui_widgets.cpp.o \
+  CMakeFiles/GAME.dir/external/rlImGui/rlImGui.cpp.o \
   /usr/local/lib/libraylib.a \
   /opt/gcc-15/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../lib64/libstdc++.so \
   /lib/x86_64-linux-gnu/libm.so \
@@ -54,15 +54,15 @@ CMakeFiles/GAME.dir/src/main.cpp.o:
 
 CMakeFiles/GAME.dir/src/scenes/BreakoutScene.cpp.o:
 
-CMakeFiles/GAME.dir/external/external/imgui/imgui.cpp.o:
+CMakeFiles/GAME.dir/external/imgui/imgui.cpp.o:
 
-CMakeFiles/GAME.dir/external/external/imgui/imgui_draw.cpp.o:
+CMakeFiles/GAME.dir/external/imgui/imgui_draw.cpp.o:
 
-CMakeFiles/GAME.dir/external/external/imgui/imgui_tables.cpp.o:
+CMakeFiles/GAME.dir/external/imgui/imgui_tables.cpp.o:
 
-CMakeFiles/GAME.dir/external/external/imgui/imgui_widgets.cpp.o:
+CMakeFiles/GAME.dir/external/imgui/imgui_widgets.cpp.o:
 
-CMakeFiles/GAME.dir/external/external/rlImGui/rlImGui.cpp.o:
+CMakeFiles/GAME.dir/external/rlImGui/rlImGui.cpp.o:
 
 /usr/local/lib/libraylib.a:
 
