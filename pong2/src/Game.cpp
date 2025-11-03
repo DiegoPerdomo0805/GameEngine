@@ -37,8 +37,9 @@ void Game::handleEvents() {
 }
 
 void Game::update() {
-  if (currentScene && !gPaused){
+  if (currentScene && (!gPaused || gStep)){
     currentScene->update(dT);
+    gStep = false;
   }
 }
 
@@ -57,7 +58,7 @@ void Game::clean() {
 bool Game::running() const { return isRunning; }
 
 void Game::run() {
-  setup();
+  setup();  
   while (running()) {
     frameStart();
     handleEvents();

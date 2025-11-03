@@ -3,6 +3,7 @@
 #include "ecs/Entity.h"
 #include "ecs/components.h"
 #include "ecs/systems.h"
+#include "ecs/ImGuiSystem.h"
 #include <vector>
 
 class BreakoutScene : public Scene {
@@ -23,4 +24,6 @@ private:
   // game state
   bool ended = false;
   const char* endMsg = nullptr;
+  
+  ImGuiSystem imgui;
 };

@@ -63,9 +63,14 @@ void ImGuiSystem::render() {
   }
 
   // ---- Game panel (Pause) ----
-  ImGui::Begin("Game");
-  ImGui::Checkbox("Paused", &gPaused);  // <-- pause toggle
-  ImGui::Text("FPS: %d", GetFPS());
+  if (ImGui::Begin("Game")) {
+    ImGui::Checkbox("Pausa", &gPaused);
+    ImGui::SameLine();
+    if (ImGui::Button("Step")) gStep = true;
+    ImGui::Separator();
+    ImGui::Text("FPS: %d", GetFPS());
+    ImGui::Text("dt:  %.4f", GetFrameTime());
+  }
   ImGui::End();
 
   // ---- Components / Inspector ----

@@ -317,4 +317,5 @@ CMakeFiles/GAME.dir/src/main.cpp.o: \
  /opt/gcc-15/include/c++/15.1.0/bits/unordered_set.h \
  /home/M0M0/GameEngine/pong2/include/ecs/systems.h \
  /home/M0M0/GameEngine/pong2/include/ecs/Entity.h \
- /home/M0M0/GameEngine/pong2/include/ecs/components.h
+ /home/M0M0/GameEngine/pong2/include/ecs/components.h \
+ /home/M0M0/GameEngine/pong2/include/ecs/ImGuiSystem.h
