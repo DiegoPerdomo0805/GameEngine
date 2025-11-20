@@ -1,6 +1,6 @@
 #include "Game.h"
 #include <raylib.h>
-#include <print>
+// #include <print>
 #include <format>
 #include "../include/ecs/Scene.h"
 #include "ecs/Globals.h"  
@@ -9,7 +9,7 @@ Game::Game(const char* title, int width, int height)
 : screen_width(width), screen_height(height) {
   InitWindow(width, height, title);
   SetTargetFPS(60);
-  std::println("Game Start!");
+  // std::println("Game Start!");
   isRunning = true;
   frameCount = 0;
   dT = 0.0f;
@@ -52,7 +52,7 @@ void Game::render() {
 
 void Game::clean() {
   if (!WindowShouldClose()) CloseWindow();
-  std::println("Game Over.");
+  // std::println("Game Over.");
 }
 
 bool Game::running() const { return isRunning; }

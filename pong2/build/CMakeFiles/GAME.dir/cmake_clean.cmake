@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/GAME.dir/link.d"
   "CMakeFiles/GAME.dir/external/imgui/imgui.cpp.o"
   "CMakeFiles/GAME.dir/external/imgui/imgui.cpp.o.d"
   "CMakeFiles/GAME.dir/external/imgui/imgui_draw.cpp.o"

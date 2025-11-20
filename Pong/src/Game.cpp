@@ -1,5 +1,5 @@
 #include <raylib.h>
-#include <print>
+// #include <print>
 #include <vector>
 
 #include "Game.h"
@@ -22,7 +22,7 @@ int paddle_sx = 200;
 Game::Game(const char* title, int width, int height)
 : screen_width(width), screen_height(height) {
   InitWindow(width, height, title);
-  std::println("GAME STARTED");
+  // std::println("GAME STARTED");
   isRunning = true;
   counter = 0;
 }
@@ -56,12 +56,12 @@ void Game::setup() {
 }
 
 void Game::frame_start() {
-  std::println("==== FRAME {} START ====", counter);
+  // std::println("==== FRAME {} START ====", counter);
   BeginDrawing();
 }
 
 void Game::frame_end() {
-  std::println("==== FRAME END ====");
+  // std::println("==== FRAME END ====");
   EndDrawing();
   counter++;
 }
@@ -93,7 +93,7 @@ void Game::update() {
   
   
   if (ball.y >= screen_height) {
-    std::println("YOU FAIL");
+    // std::println("YOU FAIL");
     exit(1);
   }
 
@@ -116,7 +116,7 @@ void Game::update() {
   
   // win condition
   if (blocks.empty()) {
-    std::println("YOU WIN!");
+    // std::println("YOU WIN!");
     exit(0);
   }
   
